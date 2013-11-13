@@ -75,7 +75,6 @@ $(function() {
 
     $("#sec-fashion").on("mousemove", function() {
         $("#sec-fashion").attr('src', 'images/sec_fashion2.png');
-        $("#sec-fashion").css({'z-index': '2'});
         $("#sec-interactive").css({'display': 'none'});
     });
 
@@ -92,6 +91,46 @@ $(function() {
     $("#sec-sports").on("mouseleave", function() {
         $("#sec-sports").attr('src', 'images/sec_sports.png');
         $("#sec-training").css({'display': 'inline-block'});
+    });
+    
+    $("#sec-training").on("mousemove", function() {
+        $("#sec-training").attr('src', 'images/sec_training.jpg');
+        $("#sec-sports").css({'display': 'none'});
+    });
+
+    $("#sec-training").on("mouseleave", function() {
+        $("#sec-training").attr('src', 'images/sec_training.png');
+        $("#sec-sports").css({'display': 'inline-block'});
+    });
+    
+     $("#sec-nutrition").on("mousemove", function() {
+        $("#sec-nutrition").attr('src', 'images/sec_nutrition.jpg');
+        $("#sec-entertainment").css({'display': 'none'});
+    });
+
+    $("#sec-nutrition").on("mouseleave", function() {
+        $("#sec-nutrition").attr('src', 'images/sec_nutrition.png');
+        $("#sec-entertainment").css({'display': 'inline-block'});
+    });
+    
+     $("#sec-entertainment").on("mousemove", function() {
+        $("#sec-entertainment").attr('src', 'images/sec_entertainment.jpg');
+        $("#sec-nutrition").css({'display': 'none'});
+    });
+
+    $("#sec-entertainment").on("mouseleave", function() {
+        $("#sec-entertainment").attr('src', 'images/sec_entertainment.png');
+        $("#sec-nutrition").css({'display': 'inline-block'});
+    });
+    
+     $("#sec-interactive").on("mousemove", function() {
+        $("#sec-interactive").attr('src', 'images/sec_interactive.jpg');
+        $("#sec-fashion").css({'display': 'none'});
+    });
+
+    $("#sec-interactive").on("mouseleave", function() {
+        $("#sec-interactive").attr('src', 'images/sec_interactive.png');
+        $("#sec-fashion").css({'display': 'inline-block'});
     });
 
     // SLIDESHOW //
