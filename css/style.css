@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0px;
     font-family: sans-serif;
@@ -117,6 +115,9 @@ header a, a:hover, a:focus {
 
 input {
     width: 70px;
+    background: url(../images/loupe.png) no-repeat right;
+    border: 1.5px solid #DBDBDB;
+    padding: 4px;
 }
 
 input:focus {
