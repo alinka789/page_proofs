@@ -1281,6 +1281,10 @@ only screen and (max-device-width: 500px)
         bottom: 30px;
     }
     
+    input:focus {
+        margin-left: 70px;
+    }
+    
     .col-inner-1 {
         left: 15%;
     }
